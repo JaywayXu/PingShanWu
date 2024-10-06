@@ -1,4 +1,5 @@
-# 一种单目标A*算法实现
+#  一种单目标A*算法设计与实现
+作者：吴屏珊
 * 最近在学习简单的单目标A\*算法，其中在CSDN上阅读到的一篇博文给了我很大启发，于是在该博文的基础上，笔者记录了一点自己对于A\*算法的体会和感悟。
 * [原文链接](https://blog.csdn.net/qq_45978890/article/details/115802114)
 
@@ -35,7 +36,8 @@
 * **Open表不为空且未找到终点时一直进行循环**
 ### 2.1 第一轮操作
 * 首先我们将起点放入Open表中<br>
-![alt text](https://i-blog.csdnimg.cn/direct/a0f8214487e1487c98934ff331907c94.png)![alt text](https://i-blog.csdnimg.cn/direct/75b05141eb0f46c6960f26faa2a545f4.png)
+![alt text](https://i-blog.csdnimg.cn/direct/a0f8214487e1487c98934ff331907c94.png)
+![alt text](https://i-blog.csdnimg.cn/direct/75b05141eb0f46c6960f26faa2a545f4.png)
 * 在Open表中找到当前F值最小的结点A，并将该点移出Open表，加入到Close表中。
 * 遍历该点A四周所有可到达节点，如果这些节点不包含在Exist表中（即未出现过），则计算它们的F值，并且根据F值大小顺序加入到Open表中。<br>
 ![alt text](https://i-blog.csdnimg.cn/direct/6a79ac9eea6f402e80f22df954849a38.png)![alt text](https://i-blog.csdnimg.cn/direct/230f3d0092c34ba58b5cc4d0c0beaba2.png)
@@ -234,4 +236,4 @@ Solution solution = new Solution();
     <img src="https://i-blog.csdnimg.cn/direct/2946267bd1cc482fb318cd88c5a3abca.png" alt="Image" />
 </div>
 
-源代码已保存到课题组github
+[源代码已保存到课题组github文件夹](https://github.com/Asurada2015/PingShanWu/tree/main/AStar)
