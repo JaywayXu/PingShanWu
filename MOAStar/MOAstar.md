@@ -1,7 +1,7 @@
 # 基于MOA*的多目标路径规划问题之我见
 * 最近在对基础单目标Astar算法有所了解后，笔者进一步探索和学习了多目标Astar算法，即MOAstar。在由单目标变成多目标的研究过程中，笔者经历了一些疑问和思考，也收获了很多体会和感悟，于是在这里记录一下笔者的学习过程。
 * [基础单目标A*算法学习链接](https://blog.csdn.net/u013555719/article/details/142487884)
-* 此为课题组2024级研究生吴屏珊同学暑期学习内容汇报
+* 此为课题组2024级研究生吴屏珊同学近期学习内容汇报
 - 更多内容请关注课题组官方中文主页：https://JaywayXu.github.io/zh-cn/
 
 ## 目录
@@ -214,7 +214,6 @@ const Cost &start_cost = costs[start_node];//获取起始节点的成本
 - Researchgate: https://www.researchgate.net/profile/Zhiwei-Xu-16
 - 微信公众号： 演化计算与人工智能
 - CSDN: 武科大许志伟 : https://xuzhiwei.blog.csdn.net/
-<br>
 - Email: xuzhiwei@wust.edu.cn
 
 My full paper list is shown at [my personal homepage](https://JaywayXu.github.io/) or [中文主站](https://JaywayXu.github.io/zh-cn/).
